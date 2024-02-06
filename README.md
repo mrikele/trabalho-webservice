@@ -24,3 +24,6 @@ Carrinho de compras
   ```
   $ uvicorn projeto:app --reload
    ```
+### Sugestões para testar no arquivo "casodeteste.http"
+ ´´´ use o postman 
+ ´´´
