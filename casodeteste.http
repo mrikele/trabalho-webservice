@@ -2,6 +2,10 @@
 ############  usuário  ################
 #######################################
 
+#Pag inicial
+GET http://127.0.0.1:8000/ HTTP/1.1
+content-type: application/json
+
 # Criar usuário
 POST http://127.0.0.1:8000/usuario HTTP/1.1
 content-type: application/json
@@ -47,4 +51,4 @@ content-type: application/json
     "nome": "Sorvete",
     "descricao": "Doce gelado",
     "preco": 9.99
-}venv\Scripts\activa
+}
